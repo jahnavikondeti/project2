@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Puzzle Game</title>
+    <link rel="designsheet" href="design.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Puzzle Game</h1>
+        <p>Arrange the letters to form the correct word:</p>
+        <div id="letters" class="letters"></div>
+        <input type="text" id="userGuess" placeholder="Type your guess here">
+        <button onclick="checkGuess()">Submit</button>
+        <p id="result"></p>
+        <button onclick="newGame()">New Word</button>
+    </div>
+
+    <script src="gamescript.js"></script>
+</body>
+</html>
